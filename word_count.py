@@ -64,7 +64,6 @@ def run(input_directory, output_filename):
     df = clean_text(df)
     df = count_words_(df)
     save_output(df, "output.txt")
-    print(df)
 
 
 if __name__ == "__main__":
